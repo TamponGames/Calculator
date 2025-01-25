@@ -86,8 +86,14 @@ class Program
         Console.ReadKey();
     }
 
+
     static void MultiplyOperation()
     {
+        double A = 5;
+        double B = 3;
+        double result = A * B;
+        Console.WriteLine($"Результат операции A * B: {result}");
+        Console.ReadKey();
     }
 
     static void DivideOperation()

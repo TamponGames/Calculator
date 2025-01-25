@@ -70,6 +70,11 @@ class Program
 
     static void AddOperation()
     {
+        double A = 5; // Пример значений, можно сделать их глобальными или передавать в аргументах
+        double B = 3;
+        double result = A + B;
+        Console.WriteLine($"Результат операции A + B: {result}");
+        Console.ReadKey();
     }
 
     static void SubtractOperation()

@@ -96,7 +96,20 @@ class Program
         Console.ReadKey();
     }
 
+
     static void DivideOperation()
     {
+        double A = 5;
+        double B = 3;
+        if (B != 0)
+        {
+            double result = A / B;
+            Console.WriteLine($"Результат операции A / B: {result}");
+        }
+        else
+        {
+            Console.WriteLine("Ошибка! Деление на ноль.");
+        }
+        Console.ReadKey();
     }
 }

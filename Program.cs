@@ -61,7 +61,12 @@ class Program
 
     static void InputB()
     {
+        Console.Write("Введите значение для B: ");
+        double B = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"B = {B}");
+        Console.ReadKey();
     }
+
 
     static void AddOperation()
     {
